@@ -13,8 +13,8 @@ public class ConnectorForDB {
 
     static final String JDBC_DRIVER = "org.postgresql.Driver";
     private static final String URL = "jdbc:postgresql://localhost:5432/productdb";
-    private static final String USER = "postgres";
-    private static final String PASS = "2303";
+    private static final String USER = "login";
+    private static final String PASS = "password";
 
     private static final ConnectorForDB instance = new ConnectorForDB();
 
